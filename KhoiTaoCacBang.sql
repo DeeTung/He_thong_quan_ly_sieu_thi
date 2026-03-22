@@ -215,7 +215,7 @@ CREATE TABLE INVENTORY (
 
 CREATE TABLE CUSTOMERS (
     customer_id VARCHAR2(50) PRIMARY KEY,
-    employee_name NVARCHAR2(100),
+    customer_name NVARCHAR2(100),
     role_id VARCHAR2(50),
     reward_points NUMBER(10),
     is_deleted NUMBER(1) DEFAULT 0,
